@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+
+.profile-card {
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    margin: 100px 470px;
+    border-radius: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.country{
+    color: hsl(75, 94%, 57%);
+}
+
+.name {
+    color: white;
+}
+
+.bio {
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+li {
+    background-color: hsl(0, 0%, 20%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .profile-card {
+        margin: 100px 50px;
+        padding: 20px 0px;
+    }
+
+    .country {
+        font-size: 14px;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+}
